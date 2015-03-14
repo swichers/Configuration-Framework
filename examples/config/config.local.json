@@ -1,0 +1,6 @@
+{
+  "default": {
+    "fqdn": "fqdn merge test",
+    "comment": "config.local merged"
+  }
+}

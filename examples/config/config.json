@@ -1,0 +1,33 @@
+{
+  "default": {
+    "type": "drupal",
+    "cron": "15m",
+    "name": "Example Config",
+    "comment": "Lorem ipsum dolor sit amet...",
+    "machine_name": "example_config",
+    "dir": "/var/www/example_config",
+    "fqdn": "example_config.com",
+    "db": {
+      "database": "example_config",
+      "user": "example",
+      "pass": "config",
+      "server": "db01",
+      "port": 3306
+    }
+  },
+  "local": {
+    "db": {
+      "server": "local-db01"
+    }
+  },
+  "example-platform": {
+    "default": {
+      "name": "Platform config override"
+    },
+    "local": {
+      "db": {
+        "server": "exp-db01"
+      }
+    }
+  }
+}

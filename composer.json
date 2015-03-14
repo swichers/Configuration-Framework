@@ -1,0 +1,22 @@
+{
+    "name": "swichers/configuration-framework",
+    "description": "Configuration helper package for loading of environment and platform specific configuration files of different formats.",
+    "version": "1.1",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Steven Wichers",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "vlucas/phpdotenv": "1.1.*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "StevenWichers\\": "src/"
+        }
+    }
+}

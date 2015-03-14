@@ -1,0 +1,6 @@
+{
+  "default": {
+    "cron": "30m",
+    "comment": "config.example_platform.local merged"
+  }
+}
