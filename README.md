@@ -36,7 +36,7 @@ would look like this:
         }
       ],
       "require": {
-        "StevenWichers/configuration": "1.0"
+        "swichers/configuration-framework": "1.*@stable"
       }
     }
 
