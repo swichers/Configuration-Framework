@@ -24,7 +24,7 @@ class PlatformController {
   protected function registerChecker($checker, $namespace = __NAMESPACE__) {
 
     // Class name must be fully namespaced.
-    $class_name = sprintf('\%s\%sPlatform', $namespace, $checker);
+    $class_name = sprintf('%s\%sPlatform', $namespace, $checker);
     if (!class_exists($class_name)) {
 
       throw new Exception(sprintf('Platform checker %s does not exist!', $class_name));
